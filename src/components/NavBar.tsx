@@ -14,7 +14,7 @@ export default function NavBar(props: NavBarProps) {
             <h1 className="text-4xl font-bold">PetShop</h1>
             <ul className="flex gap-16">
                 <li className={active == "dashboard" ? classActive: ""}><Link href="/">dashboard</Link></li>
-                <li className={active == "agendamento" ? classActive: ""}><Link href="/agendamento">movimentações</Link></li>
+                <li className={active == "agendamento" ? classActive: ""}><Link href="/agendamento">agendamento</Link></li>
                 <li className={active == "categorias" ? classActive: ""}><Link href="/categorias">categorias</Link></li>
             </ul>
             <div className="w-14 h-14 rounded-full overflow-hidden">
